@@ -126,10 +126,6 @@ body{
     height: 85%;
 }
 
-#Contact h1{
-    font-size: 1vw;
-}
-
 .iconImg{
     width: 2vw;
     height: 2vw;
@@ -148,6 +144,9 @@ body{
 
 #Contact h1{
     font-size: 1.8vw;
+}
+#Contact h2{
+    font-size: 1vw;
 }
 
 @media only screen and (min-width: 1800px) {
