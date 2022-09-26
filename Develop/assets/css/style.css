@@ -148,6 +148,9 @@ body{
 #Contact h2{
     font-size: 1vw;
 }
+#Contact h2 a{
+    font-size: 1vw;
+}
 
 @media only screen and (min-width: 1800px) {
     body {
