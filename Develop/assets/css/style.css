@@ -69,6 +69,7 @@ body{
 }
 .ProjectLink{
     color: black;
+    font-size: 1.3vw;
 }
 
 .ProjectLink:hover{
@@ -83,9 +84,6 @@ body{
 }
 #HoriseonProject img{
     width: 97%;
-}
-#HoriseonProject p{
-    font-size: medium;
 }
 
 #Project2{
