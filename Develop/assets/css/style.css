@@ -8,16 +8,15 @@ body{
     right: 10px;
  }
  #ribbon img {
-    width: 50px;
-    height: 50px;
+    width: 3vw;
+    height: 3vw;
     vertical-align:middle; 
  }
  #ribbon h1 {
     display: inline;
-    font-size: 25px;
+    font-size: 2vw;
     vertical-align:middle; 
  }
-
 
 .sidebar {
     height: 100%;
@@ -28,12 +27,12 @@ body{
     left: 0;
     background-color: white;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 2vw;
   }
 .sidebar a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 2vw;
     color: black;
     display: block;
 }
@@ -41,12 +40,11 @@ body{
     color: orange;
 }
 
-
 .circular--landscape { 
     display: inline-block; 
     position: relative; 
-    width: 200px; 
-    height: 200px; 
+    width: 15vw; 
+    height: 15vw; 
     overflow: hidden; 
     border-radius: 50%; 
     justify-content: center;
@@ -58,6 +56,173 @@ body{
 
 .main {
     margin-left: 20%;
-    margin-top: 5%;
+    margin-top: 10%;
+    margin-right: 5%;
     padding: 0px 10px;
+}
+
+.ProjectContainer{
+    width: 80vw;
+    height: 35vw;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+.ProjectLink{
+    color: black;
+}
+
+.ProjectLink:hover{
+    color: orange;
+}
+
+#HoriseonProject{
+    width: 80vw;
+    height:40vw;
+    display: inline-flexbox;
+    margin-left: 1vw;
+}
+#HoriseonProject img{
+    width: 97%;
+}
+#HoriseonProject p{
+    font-size: medium;
+}
+
+#Project2{
+    width: 38vw;
+    height: 38vw;
+    display: inline;
+}
+#Project2 img{
+    width: 100%;
+    height: 85%;
+}
+
+#Project3{
+    width: 38vw;
+    height: 38vw;
+    display: inline;
+}
+#Project3 img{
+    width: 100%;
+    height: 85%;
+}
+
+#Project4{
+    width: 38vw;
+    height: 38vw;
+    display: inline;
+}
+#Project4 img{
+    width: 100%;
+    height: 85%;
+}
+
+#Project5{
+    width: 38vw;
+    height: 38vw;
+    display: inline;
+}
+#Project5 img{
+    width: 100%;
+    height: 85%;
+}
+
+#Contact h1{
+    font-size: 1vw;
+}
+
+.iconImg{
+    width: 2vw;
+    height: 2vw;
+}
+
+#AboutMe h1{
+    font-size: 1.8vw;
+}
+#AboutMe p{
+    font-size: 1.3vw;
+}
+
+#MyWork h1{
+    font-size: 1.8vw;
+}
+
+#Contact h1{
+    font-size: 1.8vw;
+}
+
+@media only screen and (min-width: 1800px) {
+    body {
+        max-width: 1800px;
+        max-height: 1000px;
+    }
+    .main {
+        max-height: 1000px;
+    }
+
+    .sidebar {
+        max-width: 360px;
+    }
+    .circular--landscape { 
+        max-width: 300px;
+        max-height: 300px;
+    }
+    .sidebar a {
+        font-size: 35px;
+    }
+
+    #ribbon {
+        max-width: 1800px;
+        max-height: 100px;
+     }
+     #ribbon h1 {
+       max-height: 100px;
+       font-size: 35px;
+     }
+
+    #HoriseonProject{
+        width: 1500px;
+    }
+    
+    .ProjectContainer{
+        max-width: 1500px;
+        max-height: 700px;
+    }
+    #Project2{
+        max-width: 700px;
+        max-height: 700px;
+        position:static;
+    }
+    #Project3{
+        max-width: 700px;
+        max-height: 700px;
+        
+    }
+    #Project4{
+        max-width: 700px;
+        max-height: 700px;
+    }
+    #Project5{
+        max-width: 700px;
+        max-height: 700px;
+    }
+    #AboutMe p{
+        font-size: 28px;
+    }
+
+    #AboutMe h1{
+        font-size: 30px;
+    }
+    
+    #MyWork h1{
+        font-size: 30px;
+    } 
+    #Contact h1{
+        font-size: 30px;
+    }
+
+
   }
+
+
